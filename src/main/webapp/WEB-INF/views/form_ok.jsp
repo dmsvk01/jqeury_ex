@@ -32,6 +32,7 @@ int power(int n){
 <%= "from 예제를 통한 request, config out 등의 요소 연습 " %><br />
 <br />
 <%
+
 out.print("안녕하세요 환영합니다" + request.getParameter("uname"));
 
 String driver=application.getInitParameter("dname");  

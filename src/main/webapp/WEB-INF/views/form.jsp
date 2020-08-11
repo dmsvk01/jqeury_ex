@@ -8,7 +8,11 @@
 	<form action="form_ok.jsp">
 	<input type="text" name = "uname">
 	<input type="submit" value="GO">
-	
+	  
+	  
+	  
+	  
+	  
 	</form>
 </body>
 </html>
