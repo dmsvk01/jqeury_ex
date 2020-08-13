@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
@@ -156,3 +157,25 @@
         </plugins>
     </build>
 </project>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>heroku1</groupId>
+  <artifactId>heroku1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+ <artifactId>maven-war-plugin</artifactId>
+ <version>2.4</version>
+ <configuration>
+ <warSourceDirectory>WebContent</warSourceDirectory>
+ <failOnMissingWebXml>false</failOnMissingWebXml>
+ </configuration>
+</plugin>
+    </plugins>
+  </build>
+</project>
+>>>>>>> refs/remotes/origin/master
